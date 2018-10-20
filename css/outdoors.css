@@ -1,0 +1,106 @@
+.Chinese{
+	font-family: inherit;
+	color: #333333;
+}
+.English{
+	margin-bottom: 20px;
+}
+.position{
+	font-size: 14px;
+	color: #564811;
+	text-align: right;
+}
+.position a{
+	color: #564811;
+	cursor: pointer;
+}
+.position a:hover{
+	color: #4bb344;
+	text-decoration: none;
+}
+
+.outdoors>ul{
+	text-align: center;
+	border-bottom: 1px solid #dfdfdf;
+}
+.outdoors>ul>li{
+	display: inline-block;
+	margin: 20px 10px;
+	cursor: pointer;
+}
+.outdoors>ul>li>a{
+	padding: 8px 30px;
+	border-radius: 50px;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	border: 1px solid #dfdfdf;
+	color: #000000;
+}
+.outdoors>ul>li>a:hover{
+	text-decoration: none;
+	background-color: #4bb344;
+	color: #FFFFFF;
+}
+.outdoors>ul>li>.current{
+	background-color: #4bb344;
+	color: #FFFFFF;
+}
+
+.outdoorsBody{
+	padding: 15px 0px;
+}
+.outdoorsBody .media{
+	padding: 20px 0px;
+	border-bottom: 1px dashed #d2d2d2;
+	margin: 0px;
+}
+.outdoorsBody div div h4{
+	padding-left: 20px;
+	padding-top: 30px;
+	cursor: pointer;
+}
+.outdoorsBody div div h4 a{
+	font-size: 18px;
+	color: #333333;
+}
+.outdoorsBody div div h4 a:hover{
+	color: #4bb344;
+	text-decoration: none;
+}
+.outdoorsBody div div p:nth-of-type(1){
+	font-size: 12px;
+	color: #333333;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+.outdoorsBody div div p:nth-of-type(2){
+	font-size: 14px;
+	color: #666666;
+	text-indent: 3.5em;
+}
+.outdoorsTrend{
+	display: none;
+}
+
+.outdoors>.page{
+	border: none;
+}
+.outdoors>.page>li{
+	color: #000000;
+	background-color: #fafafa;
+	border: 1px solid #ebebeb;
+	padding: 3px 10px;
+	margin: 100px 0px 50px;
+	cursor: pointer;
+}
+.outdoors>.page>li:hover{
+	color: #4bb344;
+}
+
+@media (max-width: 640px){
+	.position{
+	    text-align: center;
+	}
+}

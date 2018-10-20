@@ -1,0 +1,89 @@
+.Chinese{
+	font-family: inherit;
+	color: #333333;
+}
+.English{
+	margin-bottom: 20px;
+}
+.position{
+	font-size: 14px;
+	color: #564811;
+	text-align: right;
+}
+.position a{
+	color: #564811;
+	cursor: pointer;
+}
+.position a:hover{
+	color: #4bb344;
+	text-decoration: none;
+}
+.outdoorsNews .container p{
+	font-size: 14px;
+	color: #666666;
+	text-indent: 20px;
+}
+.outdoorsNews .container .title{
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+	text-indent: 0px;
+	margin-top: 20px;
+}
+.outdoorsNews .container .msg{
+	font-size: 12px;
+	color: #666666;
+	text-align: center;
+	text-indent: 0px;
+	margin-bottom: 20px;
+}
+.outdoorsNews .container .smallTitle{
+	font-size: 14px;
+	color: #000000;
+	text-indent: 0px;
+	font-weight: bold;
+}
+.outdoorsNews .container button{
+	width: 35%;
+	text-align: left;
+	background-color: #f9f9f9;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 2px 3px 4px #cfcfcf;
+	margin-top: 20px;
+	outline: none;
+}
+.outdoorsNews .container button:nth-of-type(2){
+	margin-bottom: 70px;
+}
+.outdoorsNews .container button:hover{
+	background-color: #4bb344;
+}
+.outdoorsNews .container button a{
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	color: #333333;
+	padding: 12px;
+}
+.outdoorsNews .container button a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+@media (max-width: 640px){
+	.position{
+	    text-align: center;
+	}
+}
+@media (max-width: 991px){
+	.outdoorsNews .container button{
+	    width: 50%;
+	}
+}
+@media (max-width: 680px){
+	.outdoorsNews .container button{
+	    width: 70%;
+	}
+}

@@ -1,0 +1,53 @@
+.Chinese{
+	font-family: inherit;
+	color: #333333;
+}
+.English{
+	margin-bottom: 20px;
+}
+/*公司简介*/
+.company{
+	padding-bottom: 60px;
+}
+.company img{
+	padding: 0px;
+}
+.company h4{
+	color: #4BB344;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0px;
+}
+.company div p{
+	font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+    text-indent: 2em;
+}
+.company div p:hover{
+	color: #4BB344;
+}
+
+/*经营理念*/
+.idea{
+	padding-bottom: 60px;
+	background: url(../img/abbj.jpg) no-repeat;
+}
+.idea div p{
+	font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+    text-align: center;
+}
+.idea div p:hover{
+	color: #4BB344;
+}
+
+/*服务保障*/
+.service{
+	padding-bottom: 60px;
+}
+
+
+
+

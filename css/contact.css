@@ -1,0 +1,92 @@
+.Chinese{
+	font-family: inherit;
+	color: #333333;
+}
+.English{
+	margin-bottom: 60px;
+}
+
+.contact{
+	
+}
+.contactLeft{
+	font-size: 14px;
+}
+.contactLeft ul li{
+	width: 48%;
+	border: 1px solid #d3d3d2;
+	color: #8b8b8b;
+	float: left;
+	padding: 10px 15px;
+	margin-bottom: 20px;
+	margin-right: 2%;
+	font-size: 14px;
+}
+.contactLeft ul li:nth-of-type(5){
+	width: 98%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.contactLeft ul li span{
+	color: #ff1f1f;
+	padding: 5px;
+}
+.contactLeft ul li input,.contactLeft ul li textarea{
+	outline: none;
+	border: none;
+}
+.contactLeft ul li textarea{
+	width: 100%;
+	min-height: 120px;
+}
+.contactLeft button{
+	color: #333333;
+	background-color: #f1f3f2;
+	border-radius: 50px;
+	border: none;
+	padding: 10px 50px;
+	font-size: 18px;
+	margin-bottom: 100px;
+}
+.contactLeft button:hover{
+	color: #FFFFFF;
+	background-color: #4bb344;
+}
+.contactRight{
+	padding-top: 20px;
+}
+.contactRight ul li{
+	font-size: 14px;
+	color: #777777;
+	line-height: 60px;
+	padding-left: 10px;
+}
+.contactRight ul li span{
+	color: #4bb344;
+	font-size: 26px;
+	padding-right: 30px;
+}
+
+
+@media (max-width:992px){
+	.contactRight{
+		padding-top: 0px;
+	}
+	.contactRight ul li{
+		padding-left: 30px;
+	}
+	.contactRight ul li span{
+		padding-right: 50px;
+	}
+	.contactLeft button{
+		padding: 10px 15%;
+	}
+}
+@media (max-width:600px){
+	.contactLeft ul li{
+		width: 100%;
+	}
+	.contactLeft ul li:nth-of-type(5){
+		width: 100%;
+	}
+}
